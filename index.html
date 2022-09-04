@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="shortcut icon" sizes="32x32" href="./images/favicon.png" type="image/x-icon" />
+  <!-- style -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header>
+    <img class="logo-image" src="./images/logo.svg" alt="logo snap" />
+    <img class="mobile-menu-icon" src="./images/icon-menu.svg" alt="" />
+    <!-- SideBar Menu Mobile -->
+    <div class="mobile-menu-container inactive">
+      <div class="icon-close-menu-container">
+        <img class="icon-close-menu" src="./images/icon-close-menu.svg" alt="" />
+      </div>
+      <ul class="mobile-menu">
+        <li>
+          Features<img id="open-features" src="./images/icon-arrow-down.svg" alt="" />
+          <ul class="features-submenu inactive">
+            <li>
+              <img src="./images/icon-todo.svg" alt="" /><a href="/">Todo list</a>
+            </li>
+            <li>
+              <img src="./images/icon-calendar.svg" alt="" /><a href="/">Calendar</a>
+            </li>
+            <li>
+              <img src="./images/icon-reminders.svg" alt="" /><a href="/">Reminders</a>
+            </li>
+            <li>
+              <img src="./images/icon-planning.svg" alt="" /><a href="/">Planning</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Company<img class="changeImage" id="open-company" src="./images/icon-arrow-down.svg" alt="" />
+          <ul class="company-submenu inactive">
+            <li><a href="/">History</a></li>
+            <li><a href="/">Our Team</a></li>
+            <li><a href="/">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="/">Careers</a></li>
+        <li><a href="/">About</a></li>
+      </ul>
+      <button class="login-button">Login</button>
+      <button class="register-button">Register</button>
+    </div>
+  </header>
+  <main>
+    <img class="main-image" src="./images/image-hero-mobile.png" alt="person with a laptop" />
+    <h1 class="main-title">Make remote work</h1>
+    <p class="description">
+      Get your team in sync, no matter your location. Streamline processes,
+      create team rituals, and watch productivity soar.
+    </p>
+    <button>Learn more</button>
+    <picture class="sponsor-container">
+      <img src="./images/client-databiz.svg" alt="logo databiz" />
+      <img src="./images/client-audiophile.svg" alt="logo audio phile" />
+      <img src="./images/client-meet.svg" alt="logo meet" />
+      <img src="./images/client-maker.svg" alt="logo maker" />
+    </picture>
+  </main>
+  <footer>
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+    <a href="https://github.com/StalinAM/IntroSectionDropdown.git" target="_blank">StalinAM</a>.
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>
